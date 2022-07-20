@@ -8,6 +8,7 @@
 
 html, body {
     height: 100%;
+    background-color: blanchedalmond;
 }
 
 .logo{
@@ -60,4 +61,32 @@ nav ul li .started {
 nav ul li .started:hover{
     background-color: orange;
     transition: 0.3;
+}
+
+
+main {
+    margin-top: 3rem;
+}
+
+.content {
+    display: flex;
+    max-width: 1100px;
+    margin:  0 auto;
+}
+
+.text-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    color: rgb(60, 255, 0);
+}
+.trext-subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    max-width: 450px;
+}
+
+img{
+    width: 1100px;
+    border-radius: 20px;
 }
